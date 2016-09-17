@@ -1,23 +1,21 @@
 <template>
   <div id="app">
     <h1>{{ header }}</h1>
-    <activate></activate>
+    <content></content>
   </div>
 </template>
 
 <script>
+  import Content from './Content.vue'
 
-import Activate from './Activate.vue'
-
-export default {
-  components: {
-    Activate,
-  },
-  vuex: {
-    getters: {
-      header: state => state.header
+  export default {
+    components: {
+      Content,
+    },
+    vuex: {
+      getters: {
+        header: state => state.header
+      }
     }
   }
-}
-
 </script>

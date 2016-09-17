@@ -1,4 +1,17 @@
+@import "vars";
+
 body {
-  background: #2A2A2A;
-  color: #606060;
+  background: $secondary;
+  color: $white;
+}
+
+button {
+  background: $primary;
+  border: 0;
+  padding: 10px;
+}
+
+input,
+textarea {
+  color: $black;
 }
