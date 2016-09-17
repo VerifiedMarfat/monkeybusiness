@@ -4,7 +4,8 @@
   "description": "Where business matters of the monkey community.",
   "main": "app.js",
   "scripts": {
-    "start": " webpack-dev-server --content-base",
+    "start": "webpack-dev-server --content-base",
+    "open": "open http://localhost:8080",
     "build": " webpack -p"
   },
   "repository": {
