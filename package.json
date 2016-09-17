@@ -1,0 +1,48 @@
+{
+  "name": "monkeybusiness",
+  "version": "1.0.0",
+  "description": "Where business matters of the monkey community.",
+  "main": "app.js",
+  "scripts": {
+    "start": " webpack-dev-server --content-base",
+    "build": " webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerifiedToken/monkeybusiness.git"
+  },
+  "keywords": [
+    "VT",
+    "verified",
+    "token",
+    "monkey",
+    "business"
+  ],
+  "author": "VT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VerifiedToken/monkeybusiness/issues"
+  },
+  "homepage": "https://github.com/VerifiedToken/monkeybusiness#readme",
+  "dependencies": {
+    "vue": "^1.0.26",
+    "vuex": "^0.8.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-runtime": "^5.8.38",
+    "css-loader": "^0.25.0",
+    "node-sass": "^3.10.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "vue-hot-reload-api": "^2.0.6",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^8.5.2",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.2"
+  }
+}
