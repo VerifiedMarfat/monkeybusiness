@@ -6,6 +6,8 @@ import App from './components/App.vue'
 
 require('./styles/app.scss')
 
+Vue.config.debug = true
+
 new Vue({
   store,
   el: 'body',

@@ -1,21 +1,23 @@
 <template>
   <div id="app">
-    <toolbar></toolbar>
-    <notes-list></notes-list>
-    <editor></editor>
+    <h1>{{ header }}</h1>
+    <activate></activate>
   </div>
 </template>
 
 <script>
-import Toolbar from './Toolbar.vue'
-import NotesList from './NotesList.vue'
-import Editor from './Editor.vue'
+
+import Activate from './Activate.vue'
 
 export default {
   components: {
-    Toolbar,
-    NotesList,
-    Editor
+    Activate,
+  },
+  vuex: {
+    getters: {
+      header: state => state.header
+    }
   }
 }
+
 </script>
